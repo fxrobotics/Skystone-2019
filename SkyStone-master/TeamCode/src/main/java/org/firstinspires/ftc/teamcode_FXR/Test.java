@@ -24,9 +24,6 @@ public class Test extends LinearOpMode {
 
         while (opModeIsActive()) {
 
-
-
-
             robot.setMotors( (float)(gamepad1.left_stick_y), (float) (-gamepad1.left_stick_x), (float) (gamepad1.right_stick_x));
             if(gamepad1.y) robot.speedController();
             if(gamepad1.a){

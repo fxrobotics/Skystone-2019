@@ -3,15 +3,12 @@ package org.firstinspires.ftc.teamcode_FXR;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-import java.util.ArrayList;
-
 
 /**
  * Created by ejkat on 9/23/2017.
  */
 
-
-@TeleOp(name = "#Pushbot", group = "Test")
+@TeleOp(name = "#TeleOp", group = "Test")
 public class PushBot extends LinearOpMode {
     RCPushBot robot;
 
